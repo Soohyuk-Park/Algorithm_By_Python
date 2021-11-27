@@ -1,11 +1,13 @@
 from collections import deque
-def dfs(graph, v, visited):
+def dfs(graph, v, visited): #DFS알고리즘에 대한 함수를 정의할것이다.
 
-    visited[v] = True
+    visited[v] = True       #이 부분은 그래프의 특정한 부분이 이미 방문되었는지 체크할 용도로 사용할것.
+                            #visited는 모든 원소가 False로 초기화되어있으므로, 방문하는 순간 True가 된다 ( True <=> 방문 )
     print(v, end=' ')
     for i in graph[v]:
         if not visited[i]:
             dfs(graph, i, visited)
+           
 
 def bfs(graph, start, visited):
     queue = deque([start])
