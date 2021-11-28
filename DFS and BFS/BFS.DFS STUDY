@@ -25,7 +25,7 @@ def bfs(graph, start, visited):
 
 n, m, start = map(int, input().split()) # 두개의 숫자를 입력받는다. n은 노드의 개수, m은 간선의 개수이다.
 
-graph = [[] for _ in range(n+1)] 그래프의 연결관계를 나타내는 2차원 리스트.
+graph = [[] for _ in range(n+1)] #그래프의 연결관계를 나타내는 2차원 리스트.
 
 for i in range(m):
     a,b = map(int, input().split())      # 2하고 4가 연결되어있다면 그 의미를, graph[2] 라는 리스트에 4를 추가하고 graph[4]라는 리스트에 2를 추가하는 식으로 한다. 쌍방향 연결이므로.
