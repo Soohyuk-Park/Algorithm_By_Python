@@ -20,3 +20,12 @@ def solution(numbers, target):
     if( Totarget == target):
         answer += 1
   return answer
+
+#훨씬 좋은 풀이인듯. 생각하기는 좀 어렵지만 익숙해지면 활용 가능할 정도. 자신감! 복습! 연습!
+"""def solution(numbers, target):
+    if not numbers and target == 0 :
+        return 1
+    elif not numbers:
+        return 0
+    else:
+        return solution(numbers[1:], target-numbers[0]) + solution(numbers[1:], target+numbers[0])"""
