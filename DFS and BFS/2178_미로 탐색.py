@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/2178 #
+
 n, m = map(int, input().split()) ##세로길이와 가로길이를 입력
 
 Miro = [] #우리가 탈출해야하는 미로. 1은 길이고 0인 벽이다.
