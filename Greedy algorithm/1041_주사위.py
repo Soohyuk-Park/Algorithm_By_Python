@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1041 #
+
 import sys
 
 dice = []
