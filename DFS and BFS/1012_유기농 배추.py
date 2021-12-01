@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1012 #
+
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10000)
