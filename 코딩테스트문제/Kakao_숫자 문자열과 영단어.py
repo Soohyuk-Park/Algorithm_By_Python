@@ -1,3 +1,5 @@
+##https://programmers.co.kr/learn/courses/30/lessons/81301
+
 """ 효율적인 풀이도 기억해두자!
 def solution(s):
     words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
