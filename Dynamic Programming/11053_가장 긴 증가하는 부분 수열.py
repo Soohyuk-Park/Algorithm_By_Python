@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/11053 #
+
 n = int(input())
 
 arr = []
