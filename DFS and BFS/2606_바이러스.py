@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/2606 #
+
 n = int(input()) # 바이러스 문제이지만 노드와 간선 느낌으로 이해해도 ㅇㅋㅇㅋ. 그래프 문제 풀듯이 해봅시당!!
 m = int(input())
 
