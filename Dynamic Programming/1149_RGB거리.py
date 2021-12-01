@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1149 #
+
 n = int(input()) #집이 몇개니? 입력 받읍시다~
 
 cost = [] #이거는 각 줄에 비용을입력을 받을 예정입니다.
