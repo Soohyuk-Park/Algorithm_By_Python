@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1003 #
 #나중에 더 효율적인 방식을 고려해볼것
 ans = []
 n= int(input())
