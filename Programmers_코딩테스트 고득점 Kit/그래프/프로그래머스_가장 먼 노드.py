@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/49189 #
+
 from collections import deque
 
 def solution(n, edge):# n은 노드의 개수 edge는 연결관계를 나타낸다.
