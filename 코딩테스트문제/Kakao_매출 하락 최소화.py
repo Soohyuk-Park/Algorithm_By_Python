@@ -1,5 +1,6 @@
-import math
+## https://programmers.co.kr/learn/courses/30/lessons/72416 ##
 
+import math
 
 def build(links):            # 이거는 그냥 트리를 만들어주려는 코드라 어렵지 않음. 쏘 이지 문제는 뒤에 있는데
     tree = [[] for _ in range(len(links) + 1)]
