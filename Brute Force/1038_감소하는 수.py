@@ -69,3 +69,16 @@ except:     # 인덱스가 넘어가는 경우 -1 출력. 마지막 수 98765432
 #     print(dp[n])
 # else:
 #     print(-1)
+
+
+####################################################
+# Short 풀이 하나 추가 참고.
+
+from itertools import combinations
+target = int(input())
+dicrease_num = []
+for i in range(1,11):
+    for comb in combinations(range(0,10),i):
+        dicrease_num.append(int(''.join(map(str,sorted(comb,reverse=True)))))
+dicrease_num.sort()
+print(dicrease_num[target] if target<len(dicrease_num) else -1)
