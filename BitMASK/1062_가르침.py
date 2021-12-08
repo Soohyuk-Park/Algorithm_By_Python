@@ -43,6 +43,15 @@ def cnt(bit, words):
 
 
 #  peisea0830 님의 풀이 ( in 백준 )
+# import sys, itertools, string
+
+# def cnt(bit, words):
+#     res = 0
+#     for i in words:
+#         if (i & bit) ^ i == 0:
+#             res += 1
+#     return res
+
 # n, k = map(int, sys.stdin.readline().split())
 # arr = []
 # for _ in range(n):
