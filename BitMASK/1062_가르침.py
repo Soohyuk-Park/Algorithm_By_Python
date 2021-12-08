@@ -32,17 +32,22 @@ else:
         cnt = max(cnt, ct)
     print(cnt)
     
-import sys, itertools, string
-
-def cnt(bit, words):
-    res = 0
-    for i in words:
-        if (i & bit) ^ i == 0:
-            res += 1
-    return res
-
-
+    
+    
+    
 #  peisea0830 님의 풀이 ( in 백준 )
+    
+# import sys, itertools, string
+
+# def cnt(bit, words):
+#     res = 0
+#     for i in words:
+#         if (i & bit) ^ i == 0:
+#             res += 1
+#     return res
+
+
+
 # import sys, itertools, string
 
 # def cnt(bit, words):
