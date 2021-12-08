@@ -31,3 +31,44 @@ else:
 
         cnt = max(cnt, ct)
     print(cnt)
+    
+import sys, itertools, string
+
+def cnt(bit, words):
+    res = 0
+    for i in words:
+        if (i & bit) ^ i == 0:
+            res += 1
+    return res
+
+
+#  peisea0830 님의 풀이 ( in 백준 )
+# n, k = map(int, sys.stdin.readline().split())
+# arr = []
+# for _ in range(n):
+#     arr.append(sys.stdin.readline().rstrip())
+# if k < 5:
+#     print(0)
+# else:
+#     bit = []
+#     for i in arr:
+#         temp = 0
+#         for j in i:
+#             temp |= (1 << (ord(j) - ord('a')))
+#         bit.append(temp)
+#     total = []
+#     base = ['a', 'n', 't', 'i', 'c']
+#     for i in string.ascii_lowercase:
+#         if i in base:
+#             continue
+#         total.append(ord(i) - ord('a'))
+#     now = 0
+#     for i in base:
+#         now |= (1 << (ord(i) - ord('a')))
+#     ans = cnt(now, bit)
+#     for i in itertools.combinations(total, k - 5):
+#         temp = now
+#         for j in i:
+#             temp |= (1 << j)
+#         ans = max(ans, cnt(temp, bit))
+#     print(ans)
