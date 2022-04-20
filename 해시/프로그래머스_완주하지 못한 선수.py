@@ -12,7 +12,7 @@
     return answer
 # 이 풀이는 테스트케이스는 맞는데 효율성 테스트를 통과 못함 """
 
-def solution(participant, completion): # 1번 풀이
+def solution1(participant, completion): # 1번 풀이
     participant.sort()
     completion.sort()
     for p,c in zip(participant, completion):
@@ -25,7 +25,7 @@ def solution(participant, completion): # 1번 풀이
 import collections ## 좀 특이한 풀이라 적어둠
 
 
-def solution(participant, completion):
+def solution2(participant, completion):
     answer = collections.Counter(participant) - collections.Counter(completion)
     return list(answer.keys())[0]
 
