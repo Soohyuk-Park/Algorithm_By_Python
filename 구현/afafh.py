@@ -1,3 +1,5 @@
-n = 4
-visited = [[False]*n for _ in range(n)]
-print(visited)
+from itertools import combinations
+
+mylist = [1]
+if not mylist:
+    print(1)
