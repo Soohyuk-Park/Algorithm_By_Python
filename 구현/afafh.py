@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import math
 
 
@@ -36,3 +37,10 @@ def solution(sales, links):
     eTable = [0] * len(sales)
     calc(iTable, eTable, sales, tree, 0)
     return min(iTable[0], eTable[0])
+=======
+from itertools import combinations
+
+mylist = [1]
+if not mylist:
+    print(1)
+>>>>>>> a5012875013a759f53d859971291d5b2dee32fe9
