@@ -1,5 +1,3 @@
-from itertools import combinations
-
-mylist = [1]
-if not mylist:
-    print(1)
+L = [1,2,3,4,5,6,7,8,9]
+L[1:4] = [99]
+print(L)
